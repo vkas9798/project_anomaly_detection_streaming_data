@@ -30,6 +30,8 @@ pip install -r requirements.txt
 
 Run the main script `main.py` to start the anomaly detection visualization:
 
+![Alt text](Figure_1.jpg)
+
 
 ## Folder Structure
 
