@@ -18,7 +18,7 @@ The project demonstrates a Python-based anomaly detection system using Isolation
 
 1. Clone the repository:
 
-git clone 
+git clone https://github.com/vkas9798/project_anomaly_detection_streaming_data.git
 
 
 2. Install the required dependencies:
@@ -51,4 +51,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 
 ## License
 
-This project is licensed under the MIT License - see the  file for details.
+This project is licensed under the Apache License.
