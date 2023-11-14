@@ -34,7 +34,6 @@ Run the main script `main.py` to start the anomaly detection visualization:
 ## Folder Structure
 
 - **src/**: Contains Python source code.
-- **data/**: Directory for storing data files.
 - **results/**: Directory to save detected anomalies CSV files.
 - **requirements.txt**: File listing required Python packages.
 
