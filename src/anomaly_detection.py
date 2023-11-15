@@ -92,8 +92,8 @@ class IsolationForestAnomalyDetection:
                 plt.scatter(range((i + 1) * self.window_size - self.window_size, (i + 1) * self.window_size),
                             window_data[-self.window_size:], c=-anomaly_scores[-self.window_size:], cmap='coolwarm', marker='o')
                 plt.title('Simulated Data Stream with Anomaly Detection')
-                plt.xlabel('Index')
-                plt.ylabel('Value')
+                plt.xlabel('DataPoints')
+                plt.ylabel('Datapoint Values')
                 plt.ylim(-4, 4)
                 plt.colorbar(label='Anomaly Score')
                 plt.tight_layout()
