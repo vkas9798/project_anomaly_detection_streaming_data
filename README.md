@@ -14,15 +14,15 @@ The algorithm selected for the anomaly detection system in this project is the I
 
 ### Reasons to IsolationForest:
 
-- `**Speed and Scalability:**` Isolation Forest tends to be faster and more scalable than many traditional algorithms like k-means clustering or Gaussian Mixture Models (GMM) due to its ability to partition data efficiently in trees.
+- `Speed and Scalability:` Isolation Forest tends to be faster and more scalable than many traditional algorithms like k-means clustering or Gaussian Mixture Models (GMM) due to its ability to partition data efficiently in trees.
 
-- `**Handling High-Dimensional Data:**` Unlike some algorithms such as k-nearest neighbors (KNN) or density-based methods like DBSCAN, Isolation Forest performs well in high-dimensional spaces without suffering from the curse of dimensionality.
+- `Handling High-Dimensional Data:` Unlike some algorithms such as k-nearest neighbors (KNN) or density-based methods like DBSCAN, Isolation Forest performs well in high-dimensional spaces without suffering from the curse of dimensionality.
 
-- `**Robustness to Outliers:**` While methods like One-Class SVM (Support Vector Machine) might struggle with highly skewed or contaminated data, Isolation Forests naturally isolate anomalies, providing robustness against outliers.
+- `Robustness to Outliers:` While methods like One-Class SVM (Support Vector Machine) might struggle with highly skewed or contaminated data, Isolation Forests naturally isolate anomalies, providing robustness against outliers.
 
-- `**Adaptability to Streaming Environments:**` Compared to models that require periodic retraining like Moving Z-score or Exponential Weighted Moving Average (EWMA), Isolation Forests can adapt to changing data distributions in streaming settings without frequent retraining.
+- `Adaptability to Streaming Environments:` Compared to models that require periodic retraining like Moving Z-score or Exponential Weighted Moving Average (EWMA), Isolation Forests can adapt to changing data distributions in streaming settings without frequent retraining.
 
-- `**Unsupervised Learning and Minimal Assumptions:**` Unlike techniques such as neural networks or some deep learning models, Isolation Forests require minimal hyperparameter tuning and no prior assumptions about the underlying data distribution, making them versatile and easier to deploy in various streaming data scenarios.
+- `Unsupervised Learning and Minimal Assumptions:` Unlike techniques such as neural networks or some deep learning models, Isolation Forests require minimal hyperparameter tuning and no prior assumptions about the underlying data distribution, making them versatile and easier to deploy in various streaming data scenarios.
 
 ## Features
 
@@ -46,10 +46,10 @@ The algorithm selected for the anomaly detection system in this project is the I
 
 Run the main script `main.py` to start the anomaly detection visualization:
 
-![snapshot](Figure_1.png)
+![snapshot](./Figure_1.png)
 Figure 1: Snapshot of live streaming anomaly detection project (during runtime)
 
-![snapshot](Figure_2.png)
+![snapshot](./Figure_2.PNG)
 <br>Figure 2: Results saved in CSV format in results folder named as 'session_1.csv'
 
 
